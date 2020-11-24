@@ -14,7 +14,7 @@ cd ~/Downloads/
 
 echo "Downloading latest Zoom version"
 curl -fsSL https://zoom.us/linux/download/pubkey | sudo apt-key add -
-curl -sLk https://zoom.us/client/latest/zoom_amd64.deb -o zoom_amd64.deb
+curl -sL https://zoom.us/client/latest/zoom_amd64.deb -o zoom_amd64.deb
 
 echo "Uninstalling Zoom"
 sudo apt purge -y zoom
